@@ -1,65 +1,79 @@
-for(let i=1; i<=60; i++){
+let i=1;
+while(i<=60){
     console.log("I will invest at least 6 hrs every single day for next 60 days!");
+    i++;
 }
 
 
 
-
-
-for(i=61; i<=100; i++){
+let i=61;
+while(i<=100){
     if (i%2===0){
         console.log(i);
     }
+    i++;
 }
 
 
 
 
 
-
-for(i=78; i<=98; i++){
+let i=78;
+while(i<=98){
     if (i%2!==0){
         console.log(i);
     }
+     i++;
 }
 
 
 
 
+
+
+let i=91;
 let sum=0;
-for(i=91; i<=129; i++){
+while(i<=129){
     if (i%2!==0){
         sum+=i;
     }
+    i++;
 }
-
 console.log(sum);
 
 
 
 
-sum2=0;
-for(i=51; i<=85; i++){
+
+
+let i=51;
+let sum2=0;
+while(i<=85){
     if (i%2===0){
         sum2+=i;
     }
+    i++;
 }
-
-    console.log(sum2);
-
+console.log(sum2);
 
 
 
 
-for(let i=1; i<=10; i++){
+
+let i=1;
+while(i<=10){
     let multi=i*9;
     console.log(`9 X ${i} = ${multi}`);
+
+    i++;
+
 }
 
 
 
 
-for (let i = 81; i >= 65; i--) {
+let i=81;
+while(i >= 65){
     console.log(i);
+    i--;
 }
-
